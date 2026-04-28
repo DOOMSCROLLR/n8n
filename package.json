@@ -32,7 +32,7 @@
     "lint": "n8n-node lint",
     "lint:fix": "n8n-node lint --fix",
     "scan": "npx @n8n/scan-community-package@latest @doomscrollr/n8n-nodes-doomscrollr",
-    "prepublishOnly": "n8n-node prerelease"
+    "prepublishOnly": "npm run build && npm run lint"
   },
   "files": [
     "dist",
