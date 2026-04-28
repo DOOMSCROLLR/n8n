@@ -1,0 +1,69 @@
+{
+  "name": "@doomscrollr/n8n-nodes-doomscrollr",
+  "version": "0.1.0",
+  "description": "n8n community node for DOOMSCROLLR owned-audience workflows: posts, subscribers, products, pages, Pinterest, RSS, and analytics.",
+  "license": "MIT",
+  "homepage": "https://doomscrollr.com/docs/n8n.md",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "doomscrollr",
+    "creator-economy",
+    "owned-audience",
+    "newsletter",
+    "ecommerce",
+    "automation"
+  ],
+  "author": {
+    "name": "DOOMSCROLLR",
+    "email": "contact@doomscrollr.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaayersss/doomscrollr-n8n-nodes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaayersss/doomscrollr-n8n-nodes/issues"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "scan": "npx @n8n/scan-community-package@latest @doomscrollr/n8n-nodes-doomscrollr",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/DoomscrollrApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Doomscrollr/Doomscrollr.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "0.28.0",
+    "eslint": "9.39.4",
+    "prettier": "3.8.3",
+    "release-it": "20.0.1",
+    "typescript": "5.9.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "engines": {
+    "node": ">=20.15"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

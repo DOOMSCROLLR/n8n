@@ -1,0 +1,18 @@
+{
+  "node": "n8n-nodes-doomscrollr.doomscrollr",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": ["Marketing", "Communication"],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://doomscrollr.com/docs/n8n.md"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://doomscrollr.com/docs/n8n.md"
+      }
+    ]
+  }
+}
