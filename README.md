@@ -2,6 +2,8 @@
 
 Use DOOMSCROLLR from n8n to automate owned-audience workflows: publish posts, collect subscribers, create products and pages, connect content sources, retrieve embed code, and inspect audience engagement.
 
+DOOMSCROLLR turns automations and AI agents into owned-audience websites: Linktree, Shopify, Substack, Gumroad, ShopMy/LTK, Eventbrite/Luma, and membership-style flows — but owned. Browse public examples at [doomscrollr.com/featured](https://doomscrollr.com/featured?utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_featured_examples).
+
 ## Installation
 
 Install the community node package in n8n:
@@ -18,7 +20,7 @@ For self-hosted n8n, you can also install it from **Settings → Community nodes
 
 ## Credentials
 
-Create a **DOOMSCROLLR API** credential in n8n.
+Create a **DOOMSCROLLR API** credential in n8n. If you need a key, create a free account at [doomscrollr.com](https://doomscrollr.com/register?free=1&utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_get_api_key).
 
 Fields:
 

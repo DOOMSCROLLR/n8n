@@ -897,6 +897,8 @@ export class Doomscrollr implements INodeType {
 			headers: {
 				Accept: 'application/json',
 				'Content-Type': 'application/json',
+				'X-Doomscrollr-Client': '@doomscrollr/n8n-nodes-doomscrollr',
+				'X-Doomscrollr-Client-Version': '0.1.1',
 			},
 		},
 		properties: [
