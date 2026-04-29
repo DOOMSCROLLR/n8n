@@ -1,8 +1,25 @@
 # DOOMSCROLLR n8n Community Node
 
-Use DOOMSCROLLR from n8n to automate owned-audience workflows: publish posts, collect subscribers, create products and pages, connect content sources, retrieve embed code, and inspect audience engagement.
+**Automate DOOMSCROLLR — the audience layer for AI agents — from n8n.**
 
-DOOMSCROLLR turns automations and AI agents into owned-audience websites: Linktree, Shopify, Substack, Gumroad, ShopMy/LTK, Eventbrite/Luma, and membership-style flows — but owned. Browse public examples at [doomscrollr.com/featured](https://doomscrollr.com/featured?utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_featured_examples).
+Use this community node to publish posts, collect subscribers, create products and pages, connect RSS/Pinterest sources, retrieve embed code, and inspect audience engagement from n8n workflows.
+
+DOOMSCROLLR turns automations and AI agents into owned-audience websites: Linktree, Shopify, Substack, Gumroad, ShopMy/LTK, Eventbrite/Luma, product drops, affiliate feeds, newsletters, and membership-style flows — **but owned**.
+
+[Docs](https://doomscrollr.com/docs/n8n.md?utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_docs) · [Workflow templates](https://doomscrollr.com/n8n/workflows/?utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_templates) · [OpenAPI](https://doomscrollr.com/openapi.json?utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_openapi) · [Featured examples](https://doomscrollr.com/featured?utm_source=github&utm_medium=readme&utm_campaign=developer_funnel&utm_content=n8n_featured_examples)
+
+```bash
+npm install @doomscrollr/n8n-nodes-doomscrollr
+```
+
+## High-value workflows
+
+- New RSS item → create DOOMSCROLLR post
+- New Typeform/Tally/Airtable lead → add subscriber
+- New Shopify order → add/update subscriber
+- New Airtable product row → create DOOMSCROLLR product
+- New DOOMSCROLLR post → notify Slack
+- DOOMSCROLLR audience export → sync Google Sheets
 
 ## Installation
 
