@@ -1,19 +1,12 @@
 {
   "name": "@doomscrollr/n8n-nodes-doomscrollr",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "n8n community node for DOOMSCROLLR owned-audience workflows: posts, subscribers, products, pages, Pinterest, RSS, and analytics.",
   "license": "MIT",
   "homepage": "https://doomscrollr.com/docs/n8n.md",
   "keywords": [
     "n8n-community-node-package",
-    "n8n",
-    "ai",
-    "doomscrollr",
-    "creator-economy",
-    "owned-audience",
-    "newsletter",
-    "ecommerce",
-    "automation"
+    "ai"
   ],
   "author": {
     "name": "DOOMSCROLLR",
