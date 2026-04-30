@@ -6,6 +6,8 @@ import type {
 	INodeProperties,
 } from 'n8n-workflow';
 
+import { name as packageName, version as packageVersion } from '../package.json';
+
 export class DoomscrollrApi implements ICredentialType {
 	name = 'doomscrollrApi';
 
@@ -42,6 +44,8 @@ export class DoomscrollrApi implements ICredentialType {
 				Authorization: '=Bearer {{$credentials?.apiKey}}',
 				Accept: 'application/json',
 				'Content-Type': 'application/json',
+				'X-Doomscrollr-Client': packageName,
+				'X-Doomscrollr-Client-Version': packageVersion,
 			},
 		},
 	};
